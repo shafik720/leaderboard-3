@@ -5,6 +5,7 @@ body{
     font-family: 'Playfair Display', serif;
     font-family: 'PT Serif', serif;
     background-color: #F3F1FF;
+    margin: 0px;
 }
 
 /* ----------Menu Sections--------- */
@@ -85,6 +86,10 @@ nav a{
     font-size: 0.8em;
     width: 90%;
 }
+hr{
+    border: 1px solid grey;
+    margin: 30px 0px;
+}
 
 
 
@@ -115,9 +120,26 @@ nav a{
             align-items: center;
             padding-inline-start: 0px;
         }
+        .container{
+            width: 80%;
+        }
+        .top-players{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+            align-items: center;
+        }
+        .top-player {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
     @media  only screen and (min-width:689px) and (max-width:992px){
         .menubars{
+            width: 80%;
+        }
+        .container{
             width: 80%;
         }
     }
