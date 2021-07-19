@@ -221,12 +221,20 @@ hr{
             width: 80%;
         }
         .container{
-            width: 80%;
+            width: 90%;
         }
         .top-blogs{
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items:unset;
+        }
+        .course{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            font-size: 0.7em;
+        }
+        .clock{
+            text-align: center;
         }
     }
