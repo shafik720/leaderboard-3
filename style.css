@@ -60,7 +60,9 @@ nav a{
     background-color: white;
     padding: 10px 30px;
     margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 10px;
+    padding-bottom: 40px;
 }
 .container h3{
     font-size: 1.4em;
@@ -91,8 +93,35 @@ hr{
     margin: 30px 0px;
 }
 
-
-
+/* ----------Top Blogs--------- */
+#blog-heading{
+    padding-bottom: 0px;
+}
+.top-blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+.top-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-blog img{
+    width: 177px;
+    height: 117px;
+}
+.blog{
+    width: 80%;
+}
+.blog p{
+    font-weight: 600;
+    color: grey;
+}
+.blog a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
 
 
 
