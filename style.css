@@ -124,6 +124,48 @@ hr{
     font-size: 1.2em;
 }
 
+/* ----------Latest Courses Section--------- */
+.latest-courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+}
+.courses{
+    padding: 10px;
+    box-shadow: 0px 0px 15px 3px rgb(32, 230, 154);
+    border-radius: 10px;
+}
+/* .courses-image{
+    display: flex;
+    flex-direction: column;
+} */
+.courses img{
+    width: 100%;
+}
+.courses p{
+    color: #ED6B4F;
+}
+.gold-text{
+    color: gold;
+}
+.nongold-text{
+    color: lightgoldenrodyellow;
+}
+.course{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clock{
+    background-color:#FFE6EA ;
+    color: red;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.clock a{
+    color: red;
+}
 
 
 
