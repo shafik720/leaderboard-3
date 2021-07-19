@@ -4,8 +4,10 @@
 body{
     font-family: 'Playfair Display', serif;
     font-family: 'PT Serif', serif;
+    background-color: #F3F1FF;
 }
 
+/* ----------Menu Sections--------- */
 nav{
     background-color: #562EFF;
     color: white;
@@ -48,6 +50,42 @@ nav a{
     column-gap: 30px;
     align-items: center;
 }
+
+/* ----------Top Players--------- */
+
+.container{
+    width: 820px;
+    margin: auto;
+    background-color: white;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.container h3{
+    font-size: 1.4em;
+    color: #562EFF;
+    padding-bottom: 20px;
+}
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.top-player img{
+    width: 52px;
+    height: 52px;
+}
+.top-player {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    font-size: 0.8em;
+    width: 90%;
+}
+
 
 
 
